@@ -1,0 +1,99 @@
+
+/* Class = "UILabel"; text = "Interest Rate"; ObjectID = "57f-xf-I9E"; */
+"57f-xf-I9E.text" = "Tasa de Interés";
+
+/* Class = "UILabel"; text = "Extra Monthly Payment"; ObjectID = "5At-y0-MU8"; */
+"5At-y0-MU8.text" = "Pago Mensual Adicional";
+
+/* Class = "UILabel"; text = "Payment"; ObjectID = "7ND-3V-yI1"; */
+"7ND-3V-yI1.text" = "Pago";
+
+/* Class = "UITextField"; placeholder = "0.0%"; ObjectID = "9bU-0D-X2P"; */
+"9bU-0D-X2P.placeholder" = "0.0%";
+
+/* Class = "UILabel"; text = "Payments Total"; ObjectID = "ArF-Q8-O99"; */
+"ArF-Q8-O99.text" = "Total de Pagos";
+
+/* Class = "UILabel"; text = "Balance Total"; ObjectID = "BnW-SN-e4c"; */
+"BnW-SN-e4c.text" = "Saldo Total";
+
+/* Class = "UILabel"; text = "Debt Free Date:"; ObjectID = "C9d-dK-04y"; */
+"C9d-dK-04y.text" = "Libre de Deudas Por:";
+
+/* Class = "UILabel"; text = "Current Balance"; ObjectID = "E1L-Ad-XN5"; */
+"E1L-Ad-XN5.text" = "Saldo Actual";
+
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "HcQ-p9-c7o"; */
+"HcQ-p9-c7o.title" = "Cancelar";
+
+/* Class = "UITableViewSection"; headerTitle = "Additional Information"; ObjectID = "Rx5-rn-Pcc"; */
+"Rx5-rn-Pcc.headerTitle" = "Información Adicional";
+
+/* Class = "UILabel"; text = "Minimum Monthly Payment"; ObjectID = "VBq-Ul-vEL"; */
+"VBq-Ul-vEL.text" = "Pago Mensual Mínimo";
+
+/* Class = "UINavigationItem"; title = "Ripple"; ObjectID = "Vhx-EB-USZ"; */
+"Vhx-EB-USZ.title" = "Ripple";
+
+/* Class = "UITextField"; placeholder = "$0.00"; ObjectID = "ZXf-37-LG9"; */
+"ZXf-37-LG9.placeholder" = "$0.00";
+
+/* Class = "UIButton"; normalTitle = "Update Remaining Balance"; ObjectID = "b4f-Ch-KIJ"; */
+"b4f-Ch-KIJ.normalTitle" = "Actualizar Saldo Restante";
+
+/* Class = "UILabel"; text = "September 2020!"; ObjectID = "bBD-5m-qiv"; */
+"bBD-5m-qiv.text" = "September 2020!";
+
+/* Class = "UITextField"; placeholder = "$0.00"; ObjectID = "bgm-f6-LkM"; */
+"bgm-f6-LkM.placeholder" = "$0.00";
+
+/* Class = "UILabel"; text = "TRB"; ObjectID = "cva-67-N4j"; */
+"cva-67-N4j.text" = "TRB";
+
+/* Class = "UINavigationItem"; title = "Debt Type"; ObjectID = "eXw-Lf-rJZ"; */
+"eXw-Lf-rJZ.title" = "Debt Type";
+
+/* Class = "UILabel"; text = "Amount"; ObjectID = "fqk-Ej-Nrw"; */
+"fqk-Ej-Nrw.text" = "Amount";
+
+/* Class = "UILabel"; text = "Minimum Payment"; ObjectID = "gH3-yS-bS0"; */
+"gH3-yS-bS0.text" = "Pago Mínimo";
+
+/* Class = "UILabel"; text = "Extra Payment"; ObjectID = "j9r-sz-GPg"; */
+"j9r-sz-GPg.text" = "Pago Adicional";
+
+/* Class = "UILabel"; text = "Type"; ObjectID = "jD9-7O-uQF"; */
+"jD9-7O-uQF.text" = "Type";
+
+/* Class = "UITextField"; placeholder = "Name of Debt"; ObjectID = "jTb-Nc-YbE"; */
+"jTb-Nc-YbE.placeholder" = "Nombre de la Deuda";
+
+/* Class = "UINavigationItem"; title = "Add New Debt"; ObjectID = "lU2-yT-iwW"; */
+"lU2-yT-iwW.title" = "Añadir Nueva Deuda";
+
+/* Class = "UIBarButtonItem"; title = "Save"; ObjectID = "lqn-5C-Rx8"; */
+"lqn-5C-Rx8.title" = "Guardar";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "nSX-mk-H2d"; */
+"nSX-mk-H2d.text" = "Name";
+
+/* Class = "UITableViewSection"; headerTitle = "New Debt"; ObjectID = "pg8-E3-HYU"; */
+"pg8-E3-HYU.headerTitle" = "Nueva Deuda";
+
+/* Class = "UIButton"; normalTitle = "Choose Type"; ObjectID = "puX-OR-Cs3"; */
+"puX-OR-Cs3.normalTitle" = "Elegir Tipo";
+
+/* Class = "UILabel"; text = "Current Balance"; ObjectID = "rCl-FD-kDZ"; */
+"rCl-FD-kDZ.text" = "Saldo Actual";
+
+/* Class = "UILabel"; text = "Current Balance"; ObjectID = "sbX-vg-bFR"; */
+"sbX-vg-bFR.text" = "Saldo Actual";
+
+/* Class = "UITextField"; placeholder = "$0.00"; ObjectID = "w1o-YR-Ntm"; */
+"w1o-YR-Ntm.placeholder" = "$0.00";
+
+/* Class = "UILabel"; text = "Payment"; ObjectID = "wFu-vK-gnO"; */
+"wFu-vK-gnO.text" = "Payment";
+
+/* Class = "UILabel"; text = "TMP"; ObjectID = "zIL-HC-nho"; */
+"zIL-HC-nho.text" = "TMP";

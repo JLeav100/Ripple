@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  Ripple
+
+  Created by Jordan Leavitt on 11/6/18.
+  Copyright © 2018 Jordan Leavitt. All rights reserved.
+*/
+
+"Auto" = "Auto";
+"Bank Loan" = "Bank Loan";
+"Credit Card" = "Credit Card";
+"Family" = "Family";
+"IRS" = "IRS";
+"Medical" = "Medical";
+"Mortgage" = "Mortgage";
+"Other" = "Other";
+"Student Loan" = "Student Loan";
+"401k Loan" = "401k Loan";

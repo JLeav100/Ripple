@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11BC047020A3ED4E00D3F243 /* DataItem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 11BC046E20A3ED4E00D3F243 /* DataItem.xcdatamodeld */; };
+		543AD8B5216A835A008C460F /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543AD8B4216A835A008C460F /* CurrencyFormatter.swift */; };
+		547E7E5D2139BE6400C543A9 /* CellDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547E7E5C2139BE6400C543A9 /* CellDetailViewController.swift */; };
+		5D5CDF51A54AEC3454583F80 /* Pods_Ripple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06415A697323A025649D17A8 /* Pods_Ripple.framework */; };
+		CF188A2B2192470E00038993 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF188A2D2192470E00038993 /* Localizable.strings */; };
+		CF19B9132171AEEF00984156 /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF19B9122171AEEF00984156 /* Raleway-Medium.ttf */; };
+		CF318EEE20E3155F009396C3 /* UIStoryBoardSegueFromRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF318EED20E3155F009396C3 /* UIStoryBoardSegueFromRight.swift */; };
+		CF327EEE2076F8EB00FE2ED4 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF327EED2076F8EB00FE2ED4 /* TableViewController.swift */; };
+		CF327EF02076FA9D00FE2ED4 /* DataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF327EEF2076FA9D00FE2ED4 /* DataItem.swift */; };
+		CF550C77206DBE50000B6A75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF550C76206DBE50000B6A75 /* AppDelegate.swift */; };
+		CF550C7C206DBE50000B6A75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF550C7A206DBE50000B6A75 /* Main.storyboard */; };
+		CF550C7E206DBE50000B6A75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF550C7D206DBE50000B6A75 /* Assets.xcassets */; };
+		CF550C81206DBE50000B6A75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF550C7F206DBE50000B6A75 /* LaunchScreen.storyboard */; };
+		CF8C699321AD08E10091A98D /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF8C699221AD08E10091A98D /* CloudKit.framework */; };
+		CF9FF8B1209C07270000623E /* DebtTypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9FF8B0209C07270000623E /* DebtTypeTableViewController.swift */; };
+		CFD90084207C29C200360640 /* DebtTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD90083207C29C200360640 /* DebtTableViewCell.swift */; };
+		CFE73574207C41D2000A8D2C /* NewDebtTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE73573207C41D2000A8D2C /* NewDebtTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06415A697323A025649D17A8 /* Pods_Ripple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ripple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11BC046F20A3ED4E00D3F243 /* DataItem.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataItem.xcdatamodel; sourceTree = "<group>"; };
+		543AD8B4216A835A008C460F /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
+		547E7E5C2139BE6400C543A9 /* CellDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellDetailViewController.swift; sourceTree = "<group>"; };
+		574B412D8854C92B46106CF4 /* Pods-Ripple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ripple.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ripple/Pods-Ripple.debug.xcconfig"; sourceTree = "<group>"; };
+		C1506C4C45DCD528218DE6BA /* Pods-Ripple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ripple.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ripple/Pods-Ripple.release.xcconfig"; sourceTree = "<group>"; };
+		CF188A2C2192470E00038993 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CF188A2F2192498900038993 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CF19B9122171AEEF00984156 /* Raleway-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Medium.ttf"; sourceTree = "<group>"; };
+		CF318EED20E3155F009396C3 /* UIStoryBoardSegueFromRight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryBoardSegueFromRight.swift; sourceTree = "<group>"; };
+		CF327EED2076F8EB00FE2ED4 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		CF327EEF2076FA9D00FE2ED4 /* DataItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataItem.swift; sourceTree = "<group>"; };
+		CF3B524D21780CB3005C17A3 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		CF3B524E21780CB3005C17A3 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		CF550C73206DBE50000B6A75 /* Ripple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ripple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF550C76206DBE50000B6A75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF550C7B206DBE50000B6A75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF550C7D206DBE50000B6A75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF550C80206DBE50000B6A75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF550C82206DBE50000B6A75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF8C699221AD08E10091A98D /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		CF9FF8B0209C07270000623E /* DebtTypeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebtTypeTableViewController.swift; sourceTree = "<group>"; };
+		CFD90083207C29C200360640 /* DebtTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebtTableViewCell.swift; sourceTree = "<group>"; };
+		CFE526D321797BE500F4D6B2 /* Ripple.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ripple.entitlements; sourceTree = "<group>"; };
+		CFE73573207C41D2000A8D2C /* NewDebtTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDebtTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF550C70206DBE50000B6A75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5CDF51A54AEC3454583F80 /* Pods_Ripple.framework in Frameworks */,
+				CF8C699321AD08E10091A98D /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		014D6D585E76273665AF669E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF8C699221AD08E10091A98D /* CloudKit.framework */,
+				06415A697323A025649D17A8 /* Pods_Ripple.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95200769316A9943A37788DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				574B412D8854C92B46106CF4 /* Pods-Ripple.debug.xcconfig */,
+				C1506C4C45DCD528218DE6BA /* Pods-Ripple.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF550C6A206DBE50000B6A75 = {
+			isa = PBXGroup;
+			children = (
+				CF188A2D2192470E00038993 /* Localizable.strings */,
+				CF19B9122171AEEF00984156 /* Raleway-Medium.ttf */,
+				CF550C75206DBE50000B6A75 /* Ripple */,
+				CF550C74206DBE50000B6A75 /* Products */,
+				95200769316A9943A37788DF /* Pods */,
+				014D6D585E76273665AF669E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF550C74206DBE50000B6A75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF550C73206DBE50000B6A75 /* Ripple.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF550C75206DBE50000B6A75 /* Ripple */ = {
+			isa = PBXGroup;
+			children = (
+				CFE526D321797BE500F4D6B2 /* Ripple.entitlements */,
+				CF318EED20E3155F009396C3 /* UIStoryBoardSegueFromRight.swift */,
+				CF550C76206DBE50000B6A75 /* AppDelegate.swift */,
+				CF327EEF2076FA9D00FE2ED4 /* DataItem.swift */,
+				CFE73573207C41D2000A8D2C /* NewDebtTableViewController.swift */,
+				CF9FF8B0209C07270000623E /* DebtTypeTableViewController.swift */,
+				CF327EED2076F8EB00FE2ED4 /* TableViewController.swift */,
+				CFD90083207C29C200360640 /* DebtTableViewCell.swift */,
+				547E7E5C2139BE6400C543A9 /* CellDetailViewController.swift */,
+				CF550C7A206DBE50000B6A75 /* Main.storyboard */,
+				CF550C7D206DBE50000B6A75 /* Assets.xcassets */,
+				CF550C7F206DBE50000B6A75 /* LaunchScreen.storyboard */,
+				CF550C82206DBE50000B6A75 /* Info.plist */,
+				11BC046E20A3ED4E00D3F243 /* DataItem.xcdatamodeld */,
+				543AD8B4216A835A008C460F /* CurrencyFormatter.swift */,
+			);
+			path = Ripple;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF550C72206DBE50000B6A75 /* Ripple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF550C85206DBE50000B6A75 /* Build configuration list for PBXNativeTarget "Ripple" */;
+			buildPhases = (
+				19B7D97C006835B807EA3F9B /* [CP] Check Pods Manifest.lock */,
+				CF550C6F206DBE50000B6A75 /* Sources */,
+				CF550C70206DBE50000B6A75 /* Frameworks */,
+				CF550C71206DBE50000B6A75 /* Resources */,
+				E775B12AE0BA2B70AC025C8B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ripple;
+			productName = Ripple1;
+			productReference = CF550C73206DBE50000B6A75 /* Ripple.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF550C6B206DBE50000B6A75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Jordan Leavitt";
+				TargetAttributes = {
+					CF550C72206DBE50000B6A75 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = CF550C6E206DBE50000B6A75 /* Build configuration list for PBXProject "Ripple" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF550C6A206DBE50000B6A75;
+			productRefGroup = CF550C74206DBE50000B6A75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF550C72206DBE50000B6A75 /* Ripple */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF550C71206DBE50000B6A75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF188A2B2192470E00038993 /* Localizable.strings in Resources */,
+				CF550C81206DBE50000B6A75 /* LaunchScreen.storyboard in Resources */,
+				CF19B9132171AEEF00984156 /* Raleway-Medium.ttf in Resources */,
+				CF550C7E206DBE50000B6A75 /* Assets.xcassets in Resources */,
+				CF550C7C206DBE50000B6A75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19B7D97C006835B807EA3F9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ripple-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E775B12AE0BA2B70AC025C8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Ripple/Pods-Ripple-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Flurry-iOS-SDK/Flurry_iOS_SDK.framework",
+				"${BUILT_PRODUCTS_DIR}/Seam3/Seam3.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flurry_iOS_SDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Seam3.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ripple/Pods-Ripple-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF550C6F206DBE50000B6A75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE73574207C41D2000A8D2C /* NewDebtTableViewController.swift in Sources */,
+				CF550C77206DBE50000B6A75 /* AppDelegate.swift in Sources */,
+				CFD90084207C29C200360640 /* DebtTableViewCell.swift in Sources */,
+				CF318EEE20E3155F009396C3 /* UIStoryBoardSegueFromRight.swift in Sources */,
+				CF327EF02076FA9D00FE2ED4 /* DataItem.swift in Sources */,
+				547E7E5D2139BE6400C543A9 /* CellDetailViewController.swift in Sources */,
+				CF9FF8B1209C07270000623E /* DebtTypeTableViewController.swift in Sources */,
+				CF327EEE2076F8EB00FE2ED4 /* TableViewController.swift in Sources */,
+				11BC047020A3ED4E00D3F243 /* DataItem.xcdatamodeld in Sources */,
+				543AD8B5216A835A008C460F /* CurrencyFormatter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF188A2D2192470E00038993 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF188A2C2192470E00038993 /* es */,
+				CF188A2F2192498900038993 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		CF550C7A206DBE50000B6A75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF550C7B206DBE50000B6A75 /* Base */,
+				CF3B524D21780CB3005C17A3 /* es */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF550C7F206DBE50000B6A75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF550C80206DBE50000B6A75 /* Base */,
+				CF3B524E21780CB3005C17A3 /* es */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF550C83206DBE50000B6A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF550C84206DBE50000B6A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF550C86206DBE50000B6A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 574B412D8854C92B46106CF4 /* Pods-Ripple.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Ripple/Ripple.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64SBV827J7;
+				INFOPLIST_FILE = "$(SRCROOT)/Ripple/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JLeav.Ripple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF550C87206DBE50000B6A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1506C4C45DCD528218DE6BA /* Pods-Ripple.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Ripple/Ripple.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64SBV827J7;
+				INFOPLIST_FILE = "$(SRCROOT)/Ripple/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JLeav.Ripple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF550C6E206DBE50000B6A75 /* Build configuration list for PBXProject "Ripple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF550C83206DBE50000B6A75 /* Debug */,
+				CF550C84206DBE50000B6A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF550C85206DBE50000B6A75 /* Build configuration list for PBXNativeTarget "Ripple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF550C86206DBE50000B6A75 /* Debug */,
+				CF550C87206DBE50000B6A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		11BC046E20A3ED4E00D3F243 /* DataItem.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				11BC046F20A3ED4E00D3F243 /* DataItem.xcdatamodel */,
+			);
+			currentVersion = 11BC046F20A3ED4E00D3F243 /* DataItem.xcdatamodel */;
+			path = DataItem.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CF550C6B206DBE50000B6A75 /* Project object */;
+}
