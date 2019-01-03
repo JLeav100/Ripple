@@ -82,7 +82,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jD9-7O-uQF">
-                                                    <rect key="frame" x="20" y="8.0000000000000018" width="44" height="24.666666666666671"/>
+                                                    <rect key="frame" x="20.000000000000004" y="8.0000000000000018" width="48.333333333333343" height="24.666666666666671"/>
                                                     <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="21"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -91,7 +91,7 @@
                                                     </variation>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Payment" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ND-3V-yI1">
-                                                    <rect key="frame" x="19.999999999999996" y="36.666666666666664" width="47.666666666666657" height="14"/>
+                                                    <rect key="frame" x="20" y="36.666666666666664" width="50" height="14.333333333333336"/>
                                                     <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="12"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -100,7 +100,7 @@
                                                     </variation>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Payment" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wFu-vK-gnO">
-                                                    <rect key="frame" x="20" y="50.666666666666664" width="71.333333333333329" height="20.999999999999993"/>
+                                                    <rect key="frame" x="20" y="51" width="75" height="21.333333333333329"/>
                                                     <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="18"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -109,7 +109,7 @@
                                                     </variation>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nSX-mk-H2d">
-                                                    <rect key="frame" x="318.33333333333331" y="8.0000000000000018" width="55.666666666666686" height="24.666666666666671"/>
+                                                    <rect key="frame" x="314.33333333333331" y="8.0000000000000018" width="59.666666666666686" height="24.666666666666671"/>
                                                     <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="21"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -118,7 +118,7 @@
                                                     </variation>
                                                 </label>
                                                 <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="FKE-NX-YCY">
-                                                    <rect key="frame" x="20" y="79.666666666666671" width="354" height="10"/>
+                                                    <rect key="frame" x="20" y="80.333333333333329" width="354" height="10"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="10" id="A2m-Iy-hfS"/>
                                                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="10" id="P7D-Qr-OEa"/>
@@ -127,7 +127,7 @@
                                                     <color key="trackTintColor" red="0.73759515068804116" green="0.7448980729720811" blue="0.7448980729720811" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </progressView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amount" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fqk-Ej-Nrw">
-                                                    <rect key="frame" x="310.66666666666669" y="50.666666666666664" width="63.333333333333314" height="20.999999999999993"/>
+                                                    <rect key="frame" x="306.66666666666669" y="51" width="67.333333333333314" height="21.333333333333329"/>
                                                     <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="18"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -136,7 +136,7 @@
                                                     </variation>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current Balance" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E1L-Ad-XN5">
-                                                    <rect key="frame" x="287" y="36.666666666666664" width="87" height="14"/>
+                                                    <rect key="frame" x="283" y="36.666666666666664" width="91" height="14.333333333333336"/>
                                                     <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="12"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -220,7 +220,7 @@
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Payments Total" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ArF-Q8-O99">
-                                        <rect key="frame" x="7.9999999999999929" y="27" width="116.33333333333331" height="20"/>
+                                        <rect key="frame" x="8.0000000000000071" y="27" width="121.66666666666669" height="20"/>
                                         <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="17"/>
                                         <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -461,18 +461,10 @@
                                                         <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="25"/>
                                                     </variation>
                                                 </textField>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Required" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MFX-7Y-JeA">
-                                                    <rect key="frame" x="20" y="37" width="51" height="15"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="jTb-Nc-YbE" firstAttribute="trailing" secondItem="Prf-8B-bCx" secondAttribute="trailingMargin" id="2GY-ak-ijw"/>
-                                                <constraint firstItem="MFX-7Y-JeA" firstAttribute="leading" secondItem="Prf-8B-bCx" secondAttribute="leading" constant="20" id="AyY-Qt-ZEJ"/>
                                                 <constraint firstItem="jTb-Nc-YbE" firstAttribute="leading" secondItem="Prf-8B-bCx" secondAttribute="leadingMargin" id="FsS-sP-FMF"/>
-                                                <constraint firstItem="MFX-7Y-JeA" firstAttribute="top" secondItem="Prf-8B-bCx" secondAttribute="top" constant="37" id="Mq3-kJ-Sg6"/>
                                                 <constraint firstItem="jTb-Nc-YbE" firstAttribute="centerY" secondItem="Prf-8B-bCx" secondAttribute="centerY" id="f0W-Vp-NjY"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="jTb-Nc-YbE" secondAttribute="bottom" constant="3" id="wjM-wX-RGf"/>
                                             </constraints>
@@ -505,22 +497,14 @@
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Required" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fJ4-dV-njJ">
-                                                    <rect key="frame" x="20" y="39" width="51" height="15"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="puX-OR-Cs3" secondAttribute="trailing" constant="20" id="3rR-d5-GLb"/>
                                                 <constraint firstItem="puX-OR-Cs3" firstAttribute="top" secondItem="nv1-rP-12N" secondAttribute="top" constant="4" id="AJW-Yy-8bb"/>
                                                 <constraint firstItem="eT8-M3-khH" firstAttribute="top" secondItem="nv1-rP-12N" secondAttribute="top" constant="4" id="Jza-Yx-UNW"/>
                                                 <constraint firstAttribute="trailing" secondItem="eT8-M3-khH" secondAttribute="trailing" constant="20" id="PNV-3E-AJ0"/>
-                                                <constraint firstItem="fJ4-dV-njJ" firstAttribute="top" secondItem="nv1-rP-12N" secondAttribute="top" constant="39" id="d1H-Ct-VIV"/>
                                                 <constraint firstItem="puX-OR-Cs3" firstAttribute="leading" secondItem="nv1-rP-12N" secondAttribute="leading" constant="20" id="lTL-k9-rLO"/>
                                                 <constraint firstAttribute="bottom" secondItem="eT8-M3-khH" secondAttribute="bottom" constant="4" id="lzw-Yr-Xkt"/>
-                                                <constraint firstItem="fJ4-dV-njJ" firstAttribute="leading" secondItem="nv1-rP-12N" secondAttribute="leading" constant="20" id="qZi-ub-z3m"/>
                                                 <constraint firstAttribute="bottom" secondItem="puX-OR-Cs3" secondAttribute="bottom" constant="4" id="sxw-Ra-et7"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -563,19 +547,11 @@
                                                         <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="25"/>
                                                     </variation>
                                                 </textField>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Required" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fo2-ya-DaV">
-                                                    <rect key="frame" x="20" y="37" width="51" height="15"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="w1o-YR-Ntm" firstAttribute="trailing" secondItem="hiB-r2-q0X" secondAttribute="trailingMargin" id="2TC-nA-0qz"/>
-                                                <constraint firstItem="Fo2-ya-DaV" firstAttribute="top" secondItem="hiB-r2-q0X" secondAttribute="top" constant="37" id="4at-EE-B5h"/>
                                                 <constraint firstItem="rCl-FD-kDZ" firstAttribute="centerY" secondItem="hiB-r2-q0X" secondAttribute="centerY" id="KPm-vs-Z3w"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="rCl-FD-kDZ" secondAttribute="bottom" constant="2" id="NJE-nG-Zto"/>
-                                                <constraint firstItem="Fo2-ya-DaV" firstAttribute="leading" secondItem="hiB-r2-q0X" secondAttribute="leading" constant="20" id="QkV-rh-kzi"/>
                                                 <constraint firstItem="rCl-FD-kDZ" firstAttribute="top" secondItem="w1o-YR-Ntm" secondAttribute="top" id="TDu-86-W00"/>
                                                 <constraint firstItem="rCl-FD-kDZ" firstAttribute="leading" secondItem="hiB-r2-q0X" secondAttribute="leadingMargin" id="mJt-GI-KIA"/>
                                                 <constraint firstItem="w1o-YR-Ntm" firstAttribute="leading" secondItem="rCl-FD-kDZ" secondAttribute="trailing" constant="50" id="rfB-PU-UCR"/>
@@ -620,17 +596,9 @@
                                                         <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="25"/>
                                                     </variation>
                                                 </textField>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Required" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E9l-S6-7t1">
-                                                    <rect key="frame" x="20" y="37" width="51" height="15"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="VBq-Ul-vEL" firstAttribute="centerY" secondItem="JPa-xG-3fC" secondAttribute="centerY" id="42i-aB-Ccp"/>
-                                                <constraint firstItem="E9l-S6-7t1" firstAttribute="top" secondItem="JPa-xG-3fC" secondAttribute="top" constant="37" id="5Vb-vk-Wem"/>
-                                                <constraint firstItem="E9l-S6-7t1" firstAttribute="leading" secondItem="JPa-xG-3fC" secondAttribute="leading" constant="20" id="6c9-He-9E9"/>
                                                 <constraint firstItem="VBq-Ul-vEL" firstAttribute="centerY" secondItem="ZXf-37-LG9" secondAttribute="centerY" id="DcT-6A-eAF"/>
                                                 <constraint firstItem="ZXf-37-LG9" firstAttribute="trailing" secondItem="JPa-xG-3fC" secondAttribute="trailingMargin" id="McG-EI-KKo"/>
                                                 <constraint firstItem="VBq-Ul-vEL" firstAttribute="leading" secondItem="JPa-xG-3fC" secondAttribute="leadingMargin" id="XUm-Td-uOl"/>
@@ -715,12 +683,6 @@
                                                         <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="25"/>
                                                     </variation>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Required" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cdd-iy-afl">
-                                                    <rect key="frame" x="20" y="37" width="51" height="15"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="0.00" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9bU-0D-X2P">
                                                     <rect key="frame" x="346" y="13.666666666666668" width="37" height="32.333333333333329"/>
                                                     <constraints>
@@ -758,8 +720,6 @@
                                                 <constraint firstAttribute="bottomMargin" secondItem="57f-xf-I9E" secondAttribute="bottom" constant="2" id="RJZ-1T-p22"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="JAO-vt-kpt" secondAttribute="trailing" constant="-4" id="WrW-vz-n9L"/>
                                                 <constraint firstItem="57f-xf-I9E" firstAttribute="centerY" secondItem="kDp-Zw-UHU" secondAttribute="centerY" id="dor-qc-lV9"/>
-                                                <constraint firstItem="cdd-iy-afl" firstAttribute="leading" secondItem="kDp-Zw-UHU" secondAttribute="leading" constant="20" id="kT9-mO-Y8H"/>
-                                                <constraint firstItem="cdd-iy-afl" firstAttribute="top" secondItem="kDp-Zw-UHU" secondAttribute="top" constant="37" id="mnP-Oj-txG"/>
                                                 <constraint firstItem="JAO-vt-kpt" firstAttribute="centerY" secondItem="57f-xf-I9E" secondAttribute="centerY" id="qb4-d0-7Xe"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="9bU-0D-X2P" secondAttribute="bottom" constant="3" id="uEF-Op-9TG"/>
                                                 <constraint firstItem="57f-xf-I9E" firstAttribute="leading" secondItem="kDp-Zw-UHU" secondAttribute="leadingMargin" id="xox-83-kML"/>

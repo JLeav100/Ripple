@@ -11,11 +11,13 @@ import CoreData
 import Flurry_iOS_SDK
 import GoogleMobileAds
 import Seam3
+//import Instabug
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
+    let appToken = "2abdee8d390b9c76e018de611c0a42e4"
     
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
@@ -26,6 +28,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // Initialize the Google Mobile Ads SDK.
         GADMobileAds.configure(withApplicationID: "ca-app-pub-5887632756905876~7738089377")
+        
+        // Instabug
+//        Instabug.start(withToken: appToken, invocationEvents: .floatingButton)
+//        Instabug.autoScreenRecordingEnabled = true
+//        NetworkLogger.enabled = true
         
         return true
     }
@@ -54,7 +61,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     lazy var persistentContainer: NSPersistentContainer = {
         
-        SMStore.registerStoreClass()
+       // SMStore.registerStoreClass()
         
         let container = NSPersistentContainer(name: "DataItem")
         
@@ -66,7 +73,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             
             let storeDescription = NSPersistentStoreDescription(url: url)
             
-            storeDescription.type = SMStore.type
+           // storeDescription.type = SMStore.type
             
             container.persistentStoreDescriptions=[storeDescription]
             

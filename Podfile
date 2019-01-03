@@ -11,5 +11,6 @@ pod 'Flurry-iOS-SDK/FlurrySDK'
 pod 'Flurry-iOS-SDK/FlurryAds'
 pod 'Google-Mobile-Ads-SDK'
 pod 'Seam3'
+pod 'Instabug'
 
 end

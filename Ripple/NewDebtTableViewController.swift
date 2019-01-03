@@ -61,7 +61,7 @@ class NewDebtTableViewController: UITableViewController, UITextFieldDelegate, De
     
     private func setupInterestTextFields() {
         self.interestRateTextField.addTarget(self, action: #selector(interestRateTextFieldDidChange(_:)),
-            for: .editingChanged)
+                                             for: .editingChanged)
     }
     
     // Save Button
@@ -102,6 +102,10 @@ class NewDebtTableViewController: UITableViewController, UITextFieldDelegate, De
                         try managedContext.save()
                         
                         let okButton = UIAlertAction(title: "Ok", style: .default) { (action) in
+                            if let delegate = self.delegate {
+                                delegate.didFinishAdding(debt: newDebtObject)
+                                self.dismiss(animated: true, completion: nil)
+                            }
                             
                             self.navigationController?.popViewController(animated: true)
                         }
@@ -111,10 +115,13 @@ class NewDebtTableViewController: UITableViewController, UITextFieldDelegate, De
                         self.present(alert, animated: true, completion: nil)
                         
                     } catch {
+                        // The code inside this catch block is NOT fired if a user doesn't fill out all the fields,
+                        // it is fired if something unexpected happens on the iOS side (something outside your control)
+                        // catch blocks allow us to "Fail Gracefully".
                         let okButton = UIAlertAction(title: "Ok", style: .default) { (action) in
-                            
                             self.navigationController?.popViewController(animated: true)
                         }
+                        
                         let alert = UIAlertController(title: "Failure", message: "Your debt was not saved", preferredStyle: .alert)
                         alert.addAction(okButton)
                         
@@ -122,42 +129,20 @@ class NewDebtTableViewController: UITableViewController, UITextFieldDelegate, De
                         
                         print("Failed saving")
                     }
-                    
-                    if let delegate = delegate {
-                        delegate.didFinishAdding(debt: newDebtObject)
-                        dismiss(animated: true, completion: nil)
-                    }
                 }
-                
-                
             }
-        }
-        
-        if let debtType = typeOfDebtLabel.text, debtType.isEmpty {
-            do {
-                UIView.animateKeyframes(withDuration: 0.3, delay: 0, options: [.calculationModeCubic], animations: {
-                    UIView.addKeyframe(withRelativeStartTime: 0.0, relativeDuration: 0.3, animations: {
-                        self.debtTypeLeadingConstraint.constant = -20
-                        self.debtTypeTrailingConstraint.constant = 0
-                        self.view.layoutIfNeeded()
-                    })
-                    
-                    UIView.addKeyframe(withRelativeStartTime: 0.3, relativeDuration: 0.4, animations: {
-                        self.debtTypeLeadingConstraint.constant  = 20
-                        self.debtTypeTrailingConstraint.constant = 20
-                        self.view.layoutIfNeeded()
-                    })
-                    
-                    UIView.addKeyframe(withRelativeStartTime: 0.7, relativeDuration: 0.3, animations: {
-                        self.debtTypeLeadingConstraint.constant = 20
-                        self.debtTypeTrailingConstraint.constant = 20
-                        self.view.layoutIfNeeded()
-                    })
-                }, completion: nil)
+        } else {
+            // This code is hit if the user didn't fill out all the fields
+            let okButton = UIAlertAction(title: "Ok", style: .default) { (action) in
             }
             
+            let alert = UIAlertController(title: "Oops!", message: "Please make sure all required fields have been filled out.", preferredStyle: .alert)
+            alert.addAction(okButton)
+            
+            self.present(alert, animated: true, completion: nil)
         }
     }
+
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let navController = segue.destination as? UINavigationController,
